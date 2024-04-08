@@ -1,3 +1,6 @@
+const react = require("eslint-plugin-react");
+const globals = require("globals");
+
 module.exports = {
   root: true,
   env: { browser: true, node: true, es2020: true },
