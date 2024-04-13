@@ -4,6 +4,7 @@ import { FaThumbsUp } from "react-icons/fa";
 import { useSelector } from "react-redux";
 import { Button, Textarea } from "flowbite-react";
 import { set } from "mongoose";
+import PropTypes from "prop-types";
 
 export default function Comment({ comment, onLike, onEdit, onDelete }) {
   const [user, setUser] = useState({});
@@ -141,3 +142,10 @@ export default function Comment({ comment, onLike, onEdit, onDelete }) {
     </div>
   );
 }
+
+Comment.propTypes = {
+  comment: PropTypes.node,
+  onLike: PropTypes.node,
+  onEdit: PropTypes.node,
+  onDelete: PropTypes.node, // Can also use PropTypes.element or an array type
+};

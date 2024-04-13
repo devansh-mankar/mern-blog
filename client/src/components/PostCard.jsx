@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 export default function PostCard({ post }) {
   return (
@@ -23,3 +24,7 @@ export default function PostCard({ post }) {
     </div>
   );
 }
+
+PostCard.propTypes = {
+  post: PropTypes.node, // Can also use PropTypes.element or an array type
+};

@@ -11,3 +11,7 @@ export default function ThemeProvider({ children }) {
     </div>
   );
 }
+
+ThemeProvider.propTypes = {
+  children: PropTypes.node, // Can also use PropTypes.element or an array type
+};
