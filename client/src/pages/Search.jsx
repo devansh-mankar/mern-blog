@@ -10,7 +10,7 @@ export default function Search() {
     category: "uncategorized",
   });
 
-  console.log(sidebarData);
+  //console.log(sidebarData);
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [showMore, setShowMore] = useState(false);
@@ -53,7 +53,7 @@ export default function Search() {
       }
     };
     fetchPosts();
-  }, [location.search]);
+  }, [location.search, sidebarData]);
 
   const handleChange = (e) => {
     if (e.target.id === "searchTerm") {

@@ -7,7 +7,7 @@
   "scripts": {
     "start:dev": "cross-env NODE_ENV = development nest start --watch",
     "dev": "nodemon api/index.js",
-    "start": "node api/index.js cross-env NODE_ENV = production nest start",
+    "start": "node api/index.js ",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],

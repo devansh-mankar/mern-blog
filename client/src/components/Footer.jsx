@@ -28,11 +28,11 @@ export default function FooterCom() {
               <Footer.Title title="About" />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href="https://www.100jsprojects.com"
+                  href="https://github.com/devansh-mankar"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  100 JS Projects
+                  GitHub
                 </Footer.Link>
                 <Footer.Link
                   href="/about"
@@ -69,7 +69,7 @@ export default function FooterCom() {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright
             href="#"
-            by="Sahand's blog"
+            by="Devansh's blog"
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
