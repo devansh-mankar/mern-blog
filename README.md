@@ -18,8 +18,5 @@ Authentication: OAuth login via Google, in addition to traditional login and sig
 Admin Dashboard: A special dashboard for admins to manage blog content and user activity.
 Deployment: Hosted on Vercel for seamless scalability and performance.
 
-![image](https://github.com/user-attachments/assets/ea720f60-e89f-4bfd-b810-abfad190d2bb)
+![image](https://github.com/user-attachments/assets/bcf64710-c244-4870-8845-a9e2e7b48150)
 
-![image](https://github.com/user-attachments/assets/f927ed23-737a-47e5-817d-af123bcc2276)
-
-![image](https://github.com/user-attachments/assets/1361f672-b7fd-4d4b-825f-8df0a46c8b4e)
